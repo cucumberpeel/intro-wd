@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Really Good Cookies</title>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" type="text/css" href="css/main.css" />
+        <!-- Media query for narrow browser width -->
+        <link
+        rel="stylesheet"
+        media="only screen and (max-width: 480px)"
+        href="css/mobile.css"
+        />
+
+        <!-- Media query for medium browser width -->
+        <link
+        rel="stylesheet"
+        media="only screen and (min-width: 481px) and (max-width: 960px)"
+        href="css/tablet.css"
+        />
+
+        <!-- Media query for full browser width -->
+        <link
+        rel="stylesheet"
+        media="only screen and (min-width: 961px)"
+        href="css/desktop.css"
+        />
+
+        <!-- Prevent smartphones from scaling the page by default -->
+        <meta name="viewport" content="initial-scale=1" />
+        <script type="text/javascript" src="js/jquery-3.6.0.min.js" ></script>
+        <script type="text/javascript" src="js/main.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <h1>Really Good Cookies</h1>
+            </header>
+            <nav class="column1">
+                <h3>Menu</h3>
+                <ul class="menu">
+                    <li><a href="index.html">Home</a></li>
+            </nav>
+            <main class="column2">
+                <section id="cookies_intro">
+                    <!--image swap-->
+                    <img src="images/cookies.JPG" id="cookies_img" />
+                    <p>Baking is definitely an important source of stress relief for me. 
+                        I mostly use other people's recipes, but there are a few things that 
+                        I've baked so many times that I've adjusted my own recipe as a result. 
+                        Basic chocolate chip cookies are one of those items.
+                    </p>
+                    <!--content change-->
+                    <div class="warning">
+                        <p id="warning">Before you begin, do *not* preheat your oven ok</p>
+                        <input type="button" id="dont_preheat_button" value="OK" />
+                    </div>
+                </section>
+                <section id="cookies_recipe">
+                    <h2>Recipe</h2>
+                    <p>I forgot how many cookies this makes. I think it's 36</p>
+                    <ul id="cookie_ingredients">
+                        <h3>Ingredients</h3>
+                            <li><p>1 stick unsalted butter</p></li>
+                            <li><p>3/4 cup brown sugar</p></li>
+                            <li><p>1/2 cup white sugar</p></li>
+                            <li><p>1/2 tsp vanilla extract</p></li>
+                            <li><p>1 egg + 1 egg yolk</p></li>
+                            <li><p>1 1/4 cup flour</p></li>
+                            <li><p>1/2 tsp baking soda</p></li>
+                            <li><p>1 pinch of salt</p></li>
+                            <li><p>1 bar chocolate (dark or bittersweet recommended)</p></li>
+                            <li><p>1/8 cup chocolate chunks</p></li>
+                    </ul>
+                </section>
+                <section id="cookies_instructions">
+                    <ol id="cookie_instructions">
+                        <h3>Instructions</h3>
+                        <li><p>Melt butter in pan, stirring frequently. When brown bits start 
+                            to appear, remove from heat and cool to room temperature. When cooled, 
+                            add 2 tbsp room temperature water to make up for lost volume.
+                        </p></li>
+                        <li><p>In a large bowl, whisk brown butter, brown sugar, and white sugar 
+                            until thoroughly combined. Add vanilla extract and eggs, whisking until 
+                            just uniform to avoid overmixing eggs.
+                        </p></li>
+                        <li><p>In a separate bowl, sift flour, baking soda, and salt. Mix until combined, 
+                            then add to wet ingredients.
+                        </p></li>
+                        <li><p>Fold dry ingredients into wet ingredients with a spatula.</p></li>
+                        <li><p>When combined, chop chocolate bar and fold all chocolate into dough with a 
+                            spatula.</p></li>
+                        <li><p>Chill for minimum 1 hour, or overnight for best results.</p></li>
+                        <li><p>When ready to bake, preheat oven to 350 F.</p></li>
+                        <li><p>Bake for 10 minutes at 350 F.</p></li>
+                        <li><p>Let cool for minimum 20 minutes before enjoying.</p></li>
+                    </ol>
+                </section>
+                <section id="celebrate">
+                    <!--animation-->
+                    <img src="images/celebrate.jpg" id="celebrate_img" />
+                    <input type="button" id="celebrate_button" value="Celebrate!" />
+                </section>
+            </main>
+            <aside class="column3"></aside>
+            <footer>
+                <p>&copy; 2022 by Amory Gao.</p>
+            </footer>
+        </div>
+    </body>
+</html>

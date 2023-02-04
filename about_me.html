@@ -1,0 +1,92 @@
+<!-- place your HTML code here -->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" type="text/css" href="css/main.css" />
+        <!-- Media query for narrow browser width -->
+        <link
+        rel="stylesheet"
+        media="only screen and (max-width: 480px)"
+        href="css/mobile.css"
+        />
+
+        <!-- Media query for medium browser width -->
+        <link
+        rel="stylesheet"
+        media="only screen and (min-width: 481px) and (max-width: 960px)"
+        href="css/tablet.css"
+        />
+
+        <!-- Media query for full browser width -->
+        <link
+        rel="stylesheet"
+        media="only screen and (min-width: 961px)"
+        href="css/desktop.css"
+        />
+
+        <!-- Prevent smartphones from scaling the page by default -->
+        <meta name="viewport" content="initial-scale=1" />
+        <title>About Me</title>
+    </head>
+
+    <body>
+        <div class="container">
+            <header>
+                <h1>About Me</h1>
+            </header>
+            <nav class="column1">
+                <h3>Menu</h3>
+                <ul class="menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="more_about_me.html">More About Me</a></li>
+                </ul>
+            </nav>
+    
+            <main class="column2">
+                <section id="my_background">
+                    <h2>My background</h2>
+                    <p>
+                        Welcome!
+                        I'm a rising second-year at NYU Shanghai, living in the US until international travel reopens. 
+                        This summer, I'm calling in from my home state as I prepare for my return to NYU New York in 
+                        July. Fun fact: I have never been to NYU Shanghai's campus, and have no plans to do so in the 
+                        near future haha
+                    </p>
+                    <figure>
+                        <img src="images/playground.png"/>
+                        <figcaption>
+                            <p>Me and my camera</p>
+                        </figcaption>
+                    </figure>
+                </section>
+    
+                <section class="about_me_sections" id="my_interests">
+                    <h2>My interests</h2>
+                    <p>
+                        I'm an intended Computer Science major. I enjoy photography, graphics, and editing, and my 
+                        ideal career would combine my creative background with CS to make fun projects.
+                    </p>
+                    <figure>
+                        <img src="images/pancake.jpeg" />
+                        <figcaption>
+                            <p>
+                                In my free time, I enjoy waking up notoriously early to fall /hj (<a 
+                                href="https://www.intheknow.com/post/hj-j-abbreviations-meaning/">/hj</a> = half-joking)
+                            </p>
+                        </figcaption>
+                    </figure>
+                    <p>
+                        In my free time, I enjoy figure skating and dancing. I plan to compete for NYU Figure Skating, 
+                        and I'm active in dance organizations around NYC, such as <a href="https://www.youtube.com/c/KNESISatNYU">
+                            NYU KNESIS</a>.
+                    </p>
+                </section>
+            </main>
+            <aside class="column3"></aside>
+            <footer>
+                <p>&copy; 2022 by Amory Gao.</p>
+            </footer>
+        </div>
+    </body>
+</html>

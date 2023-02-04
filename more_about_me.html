@@ -1,0 +1,83 @@
+<!-- place your HTML code here -->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" type="text/css" href="css/main.css" />
+        <!-- Media query for narrow browser width -->
+        <link
+        rel="stylesheet"
+        media="only screen and (max-width: 480px)"
+        href="css/mobile.css"
+        />
+
+        <!-- Media query for medium browser width -->
+        <link
+        rel="stylesheet"
+        media="only screen and (min-width: 481px) and (max-width: 960px)"
+        href="css/tablet.css"
+        />
+
+        <!-- Media query for full browser width -->
+        <link
+        rel="stylesheet"
+        media="only screen and (min-width: 961px)"
+        href="css/desktop.css"
+        />
+
+        <!-- Prevent smartphones from scaling the page by default -->
+        <meta name="viewport" content="initial-scale=1" />
+        <title>More About Me</title>
+    </head>
+
+    <body>
+        <div class="container">
+            <header>
+                <h1>More About Me</h1>
+            </header>
+
+            <nav class="column1">
+                <h3>Menu</h3>
+                <ul class="menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about_me.html">About Me</a></li>
+                </ul>
+            </nav>
+
+            <main class="column2">
+                <section id="nyc_moments_section">
+                    <h2>Top 3 NYC Moments</h2>
+                    <p>
+                        I was assigned to study at NYU New York last fall. Throughout my online spring semester, 
+                        I've been reflecting on some of the NYC experiences from last fall that stuck with me the 
+                        most.
+                    </p>
+                    <ol reversed id="nyc_moments_list">
+                        <li>
+                            <h4>(Contained) burning trash in Union Square</h4>
+                            <img src="images/trash_can.JPG" />
+                            <p>I feel like this is just very representative of the city as a whole</p>
+                        </li>
+                        <li>
+                            <h4>The cockroach that crawled under my door to die while I was eating</h4>
+                            <img src="images/cockroach.jpeg" />
+                            <p>
+                                Buddy... that could've been accomplished in the hallway. Third North's 
+                                <a href="https://nyulocal.com/nyu-local-dorm-guide-2016-third-north-744a0b19c72b">
+                                    location</a> above a whole area of restaurants probably doesn't help
+                            </p>
+                        </li>
+                        <li>
+                            <h4>When Felix Morelo started drawing spots all over WSP</h4>
+                            <img src="images/farting_spot.JPG" />
+                            <p>It was interesting to see how many people actually avoided them</p>
+                        </li>
+                </section>
+            </main>
+            <aside class="column3"></aside>
+            <footer>
+                <p>&copy; 2022 by Amory Gao.</p>
+            </footer>
+        </div>
+    </body>
+</html>

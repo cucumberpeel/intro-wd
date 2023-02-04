@@ -1,0 +1,9 @@
+.container {
+    width: 481px;
+    grid-template-columns: 1fr 2fr;
+    grid-template-areas: 
+        "header     header"
+        "left-nav   main-content"
+        "right-rail right-rail"
+        "footer     footer";
+}

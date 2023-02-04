@@ -1,0 +1,121 @@
+/* place your CSS code here */
+
+/* background styles */
+.container {
+    margin: auto;
+    display: grid;
+}
+
+body {
+    background-color:lemonchiffon;
+    padding: 1%;
+}
+
+/* header & footer */
+header {
+    grid-area: header;
+}
+
+footer {
+    grid-area: footer;
+}
+
+main {
+    grid-area: main-content;
+    background-color: bisque;
+}
+
+/* left nav & right rail */
+nav {
+    padding: 0 5% 5% 5%;
+    grid-area: left-nav;
+    background-color: blanchedalmond;
+}
+
+aside {
+    grid-area: right-rail;
+    background-color: blanchedalmond;
+}
+
+img, input {
+    display: block;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1%;
+}
+
+div.warning, figcaption {
+    text-align: center;
+}
+
+img#celebrate_img {
+    position: relative;
+}
+
+/* paragraph styles */
+p {
+    font-family:georgia;
+    font-stretch: semi-expanded;
+    font-size:17px;
+}
+
+/* heading styles */
+h1 {
+    font-family:cambria;
+    font-weight: 200;
+    font-size:3em;
+}
+
+h2 {
+    font-family:geneva;
+    font-weight: 100;
+    font: size 1.75em;
+    text-transform:lowercase;
+}
+
+h3 {
+    font-family:geneva;
+    font-weight: 100;
+    font-size:1.5em;
+    text-transform:lowercase;
+}
+
+/* link styles */
+a:link {
+    color:darkgreen;
+}
+
+a:visited {
+    color:dimgrey;
+}
+
+a:hover {
+    color:darkseagreen;
+}
+
+a:active {
+    color:limegreen;
+}
+
+/* section styles */
+section {
+    padding: 1% 3%;
+    margin-bottom:1%;
+    border-style:dashed;
+    border-width: 1px;
+    border-color:dimgray;
+}
+
+section.about_me_sections h2 {
+    font-size: 2em;
+}
+
+/* list styles */
+ul.menu, ol#assignments {
+    list-style-type: circle;
+}
+
+ol#nyc_moments_list {
+    font-family:georgia;
+}

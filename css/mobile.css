@@ -1,0 +1,9 @@
+.container {
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "header"
+        "left-nav"
+        "main-content"
+        "right-rail"
+        "footer";
+}

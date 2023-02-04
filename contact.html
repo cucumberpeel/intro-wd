@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Contact Coach A</title>
+        <!--load bootstrap css & custom css-->
+        <link rel="stylesheet" href="css/bootstrap.min.css" />
+        <link rel="stylesheet" href="css/custom.css" />
+        <!--load jquery & bootstrap js-->
+        <script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="js/main.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <h1>Coach A</h1>
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <a class="navbar-brand" href="professional_site.html">Coach A</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" 
+                        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="professional_site.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="methodology.html">Methodology</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="testimonials.html">Testimonials</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+                <h2>Contact Coach A</h2>
+            </header>
+            <main>
+                <section id="rinks">
+                    <p>Book Coach A at Rink A, Rink B, or Rink C today!</p>
+                </section>
+                <!--contact info-->
+                <form>
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Name</label>
+                        <input type="text" class="form-control" id="name">
+                        </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="email">
+                    </div>
+                    <div class="mb-3">
+                        <label for="message" class="form-label">Message</label>
+                        <input type="text" class="form-control" id="message" aria-describedby="messageHelp">
+                        <div id="messageHelp" class="form-text">If requesting a trial lesson, please indicate your skating experience 
+                        (years and/or tests passed), availability, and preferred rink (Rink A, Rink B, or Rink C).</div>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </main>
+            <footer>
+                <p>&copy; 2022 by Amory Gao.</p>
+            </footer>
+        </div>
+    </body>
+</html>
